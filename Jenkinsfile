@@ -1,8 +1,12 @@
 node {
-    stage 'Testing'
-    echo 'Hello World 1'
-    stage 'Stage 2'
     def mvnHome = tool 'M3'
+    stage 'checkout'
+    git url: 'https://github.com/predic8/simple-jenkins2'
+    stage 'building'
+    sh "${mvnHome}/bin/mvn compile"
+    stage 'testing'
     sh "${mvnHome}/bin/mvn test"
-    echo 'Hello World 2'
+    stage 'install'
+    sh "${mvnHome}/bin/mvn install"
+    echo 'Installed'
 }
