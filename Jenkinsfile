@@ -3,6 +3,6 @@ node {
     echo 'Hello World 1'
     stage 'Stage 2'
     def mvnHome = tool 'M3'
-    sh "${mvnHome}/bin/mvn -B verify"
+    sh "${mvnHome}/bin/mvn test"
     echo 'Hello World 2'
 }
