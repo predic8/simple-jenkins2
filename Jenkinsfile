@@ -7,7 +7,7 @@ node {
     stage 'testing'
     sh "${mvnHome}/bin/mvn test"
     stage 'acceptance'
-    input message: 'Please check the layout approve usabiblity', parameters: [choice(choices: [''], description: 'Bitte protokollieren', name: 'Kommentar')]
+    input message: 'Please check the layout approve usabiblity'
     stage 'install'
     sh "${mvnHome}/bin/mvn install"
     echo 'Installedert'
