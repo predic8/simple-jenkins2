@@ -17,7 +17,7 @@ public class SimpleTest {
     @org.junit.Test
     public void add() throws Exception {
         assertEquals(3, simple.addiere(1,2));
-        assertEquals(4, simple.addiere(1,2));
+        assertEquals(4, simple.addiere(1,3));
     }
 
 }
