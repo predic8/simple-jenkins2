@@ -8,5 +8,5 @@ node {
     sh "${mvnHome}/bin/mvn test"
     stage 'install'
     sh "${mvnHome}/bin/mvn install"
-    echo 'Installed'
+    echo 'Installedert'
 }
