@@ -14,7 +14,7 @@ node {
     sh "${mvnHome}/bin/mvn test"
     stage 'acceptance'
     input message: 'Please check the layout approve usabiblity'
-
+    stage 'release'
     stage 'install'
     sh "${mvnHome}/bin/mvn install"
     echo 'Installedert'
