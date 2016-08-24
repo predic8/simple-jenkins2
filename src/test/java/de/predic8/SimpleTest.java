@@ -14,6 +14,7 @@ public class SimpleTest {
         simple = new Simple();
     }
 
+        //gg
     @org.junit.Test
     public void add() throws Exception {
         assertEquals(3, simple.addiere(1,2));
