@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/de/predic8/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -668,7 +668,7 @@
       <workItem from="1471807601486" duration="598000" />
       <workItem from="1472030618139" duration="78000" />
       <workItem from="1472030739569" duration="25000" />
-      <workItem from="1472037924418" duration="1147000" />
+      <workItem from="1472037924418" duration="1183000" />
     </task>
     <task id="LOCAL-00001" summary="Initial content">
       <created>1471438491717</created>
@@ -681,7 +681,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7069000" />
+    <option name="totallyTimeSpent" value="7105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -932,7 +932,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/de/predic8/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding />
         </state>
       </provider>

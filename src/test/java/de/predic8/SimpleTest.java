@@ -19,7 +19,7 @@ public class SimpleTest {
     public void add() throws Exception {
         assertEquals(3, simple.addiere(1,2));
         assertEquals(4, simple.addiere(1,3));
-        assertEquals(5, simple.addiere(1,3));
+        assertEquals(5, simple.addiere(2,3));
     }
 
 }
