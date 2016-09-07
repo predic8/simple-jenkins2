@@ -4,4 +4,10 @@ node {
     git url: 'https://github.com/predic8/simple-jenkins2'
     stage 'compile'
     sh "${mvnHome}/bin/mvn compile"
+    stage 'test'
+    sh "${mvnHome}/bin/mvn test"
+    stage 'acceptance'
+    input message: 'Bitte Useability prüfen'
+    stage 'install'
+    sh "${mvnHome}/bin/mvn install"
 }
