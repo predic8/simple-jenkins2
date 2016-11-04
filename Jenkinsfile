@@ -7,10 +7,4 @@ node {
     sh "${mvnHome}/bin/mvn compile"
     stage 'test'
     sh "${mvnHome}/bin/mvn test"
-    stage 'deploy to test env'
-    echo 'Deploying out source code'
-    stage 'acceptance'
-    input message: 'Bitte Useability prüfen'
-    stage 'install'
-    sh "${mvnHome}/bin/mvn install"
 }
