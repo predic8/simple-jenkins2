@@ -7,4 +7,8 @@ node {
     sh "${mvnHome}/bin/mvn compile"
     stage 'test'
     sh "${mvnHome}/bin/mvn test"
+    stage 'User Acceptance'
+    input 'Alles Ok'
+    stage 'Deploy'
+    echo 'Deploy'
 }
