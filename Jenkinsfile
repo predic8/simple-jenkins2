@@ -1,12 +1,13 @@
 node {
-    def mvnHome = tool 'M3'
     stage 'checkout'
     echo 'Checking out source code'
     git url: 'https://github.com/predic8/simple-jenkins2'
     stage 'compile'
-    sh "${mvnHome}/bin/mvn compile"
+    echo "compile"
+    // sh "${mvnHome}/bin/mvn compile"
     stage 'test'
-    sh "${mvnHome}/bin/mvn test"
+    echo "Test"
+    // sh "${mvnHome}/bin/mvn test"
     stage 'User Acceptance'
     input 'Alles Ok'
     stage 'Deploy'
