@@ -9,7 +9,9 @@ node {
     echo "Test"
     // sh "${mvnHome}/bin/mvn test"
     stage 'User Acceptance'
-    input 'Alles Ok'
+    timeout(time: 10, unit: 'SECONDS') {
+        input 'Alles Ok'
+    }
     stage 'Deploy'
     echo 'Deploy'
 }
